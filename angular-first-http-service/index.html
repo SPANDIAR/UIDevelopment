@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="integration">
+  <head>
+    <meta charset="utf-8">
+    <title>My First Real Integration</title>
+    <script type="text/javascript" src="./angular.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
+    <script type="text/javascript" src="./appName.service.js"></script>
+    <script type="text/javascript" src="./appConstructor.service.js"></script>
+    <script type="text/javascript" src="./logging.service.js"></script>
+    <script type="text/javascript" src="./entry.controller.js"></script>
+    <script type="text/javascript" src="./repairDetails.service.js"></script>
+    <script type="text/javascript" src="./libraryCtrl.controller.js"></script>
+    <script type="text/javascript" src="./libraryBooks.service.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+  <body>
+    <header ng-controller="headerController as head">
+      <h3 ng-bind=head.headerTitle></h3>
+    </header>
+
+    <!--  <div ng-controller = "entryController as entry">
+      <h5>App Status is {{entry.status}}</h5>
+      <div class="container">
+        <ul class="list-group">
+          <li class="list-group-item" ng-repeat="repair in entry.repairDetails[0].repairs" ng-click="entry.getCustomerDetails($index)">
+            <div class="col">
+              <p>Repair ID: <span ng-bind=repair.repairId></span></p>
+              <p>Serial ID: <span ng-bind=repair.product.serialId></span></p>
+              <p>Repair Type: <span ng-bind=repair.repairType></span></p>
+              <p>Repair Status: <span ng-bind=repair.repairStatus></span></p>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item" ng-repeat="part in repair.parts">
+                <p>Part Number: <span ng-bind=part.partNumber></span></p>
+                <p>Part Name: <span ng-bind=part.partDescription></span></p>
+                <p>Part Section: <span ng-bind=part.partSection></span></p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="media">
+        <div class="media-body">
+          <h5 class="mt-0">Customer</h5>
+            <p>First Name: <span ng-bind=entry.customerDetails.firstName></span></p>
+            <p>Last Name: <span ng-bind=entry.customerDetails.lastName></span></p>
+            <p>Phone: <span ng-bind=entry.customerDetails.phoneNum></span></p>
+        </div>
+      </div>
+    </div> -->
+    <div class="libraryModule" ng-controller="libraryCtrl as lib">
+      <h3>Hello Library</h3>
+
+      <div class="addBook">
+        <div class="container">
+          <button type="button" ng-hide="lib.addBookSwitch" ng-click="lib.onClickAddBook()">Add Book</button>
+          <div class="alert alert-success" ng-if="lib.bookAddSuccess">
+            <p ng-bind="lib.bookAddSuccess"></p>
+          </div>
+          <div class="alert alert-danger" ng-if="lib.bookAddFailure">
+            <p ng-bind="lib.bookAddFailure"></p>
+          </div>
+          <div class="" ng-show="lib.addBookSwitch">
+            <p><button type="button" ng-show="lib.addBookSwitch" ng-click="lib.onClickCancel()">Cancel</button></p>
+            <p>ISBN: <input type="text" ng-model="lib.isbnId"> <span> <button type="button" ng-click=lib.onClickGetISBNDetails()>Get Details</button> </span> </p>
+            <p>Name: <input type="text" ng-model="lib.bookDetailFromIsbn.book.title"></p>
+            <p>Author: <input type="text" ng-model="lib.bookDetailFromIsbn.book.authorDetails.author[0].authorName"></p>
+            <p>Language: <input type="text" ng-model="lib.bookDetailFromIsbn.book.language"></p>
+            <p>Publisher: <input type="text" ng-model="lib.bookDetailFromIsbn.book.publisher"></p>
+            <p>Genre:</p>
+            <p>
+              <span> <input type="checkbox" name="bookGenre" value="Fiction" ng-model="lib.bookGenre.fiction"> Fiction </span>
+              <span> <input type="checkbox" name="bookGenre" value="Classic" ng-model="lib.bookGenre.classic"> Classic </span>
+              <span> <input type="checkbox" name="bookGenre" value="Romance" ng-model="lib.bookGenre.romance"> Romance </span>
+              <span> <input type="checkbox" name="bookGenre" value="Crime" ng-model="lib.bookGenre.crime"> Crime </span>
+              <span> <input type="checkbox" name="bookGenre" value="Thriller" ng-model="lib.bookGenre.thriller"> Thriller </span>
+              <span> <input type="checkbox" name="bookGenre" value="Thriller" ng-model="lib.bookGenre.nonFiction"> Non Fiction </span>
+              <span> <input type="checkbox" name="bookGenre" value="Thriller" ng-model="lib.bookGenre.science"> Science </span>
+              <span> <input type="checkbox" name="bookGenre" value="Thriller" ng-model="lib.bookGenre.history"> History </span>
+            </p>
+            
+            <p> <span> <button type="submit" ng-click="lib.onClickSubmit()">Submit</button> </span>
+                <span> <button ng-click="lib.onClickClear()">Clear</button> </span>
+            </p>
+        </div>
+      </div>
+
+
+      <div class="container" ng-hide="lib.addBookSwitch">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="list-group">
+              <div class="list-group-item"
+                ng-repeat="book in lib.libraryBooksCollection.libraryBooks"
+                ng-click="lib.onSelectItem($index, book)" >
+                <p ng-bind=book.bookId></p>
+                <p ng-bind=book.bookName></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <p ng-bind=lib.libraryBookDetail.bookId></p>
+            <p>Author: <span ng-bind=lib.libraryBookDetail.author></span> </p>
+            <p>Publisher: <span ng-bind=lib.libraryBookDetail.publisher></span> </p>
+            <p>Snippet: <span ng-bind=lib.libraryBookDetail.bookSnippet></span> </p>
+            <p>Rating: <span ng-bind=lib.libraryBookDetail.bookRating></span> </p>
+            <p>Genre: </p>
+            <div class="" ng-repeat="genre in lib.libraryBookDetail.bookAttributes">
+              <p ng-bind=genre.bookGenre></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <footer ng-controller="footerController as foot">
+      <p ng-bind=foot.footerTitle></p>
+    </footer>
+  </body>
+</html>

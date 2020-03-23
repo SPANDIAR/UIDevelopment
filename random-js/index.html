@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Some Random Stuff</title>
+
+    <script type="text/javascript">
+        function changeColor(color){
+          console.log("changeColor called for " + color);
+          let element = document.getElementById('colorManipulations');
+          element.style.color=color;
+        }
+    </script>
+
+  </head>
+  <body>
+    <div class="colorManipulations" >
+      <p id="colorManipulations">See this text change color</p>
+        <p><button type="button" name="button" onclick="changeColor('red')">Red</button></p>
+        <p><button type="button" name="button" onclick="changeColor('blue')">Blue</button></p>
+        <p><button type="button" name="button" onclick="changeColor('green')">Green</button></p>
+    </div>
+    <p></p>
+  </body>
+</html>

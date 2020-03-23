@@ -1,0 +1,33 @@
+*{
+  font-size: 14px;
+  border: 0;
+  padding: 0;
+  background-color: #F5FFFA;
+  width: 750px;
+}
+
+h1{
+  border-style: ridge;
+  border-color: #4B0082;
+  padding: 10px;
+  background-color: #E6E6FA;
+  font-size: 2.5em;
+  border-width: medium;
+  color: #191970;
+}
+
+p{
+  font-family: Helvetica;
+  color: #9932CC;
+}
+
+footer{
+  font-style: italic;
+  font-size: 0.75em;
+  padding-top: 20px;
+  color:#4B0082;
+}
+
+footer em {
+  font-weight: bolder;
+}

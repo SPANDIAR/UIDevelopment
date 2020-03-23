@@ -1,0 +1,1008 @@
+{
+    "scheduleList": [],
+    "listType": "Incremental",
+    "lastReadDate": "1584326453452",
+    "repairs": [
+        {
+            "repairId": "R449077207",
+            "comment": "TopCase @CI ",
+            "repairStatus": "RIP",
+            "repairType": "ISR",
+            "createdDate": 1584183502047,
+            "customer": {
+                "firstName": "Vicky Wai Kay",
+                "lastName": "Leung",
+                "phoneNum": "67793982",
+                "alpha2CountryCode": "HK"
+            },
+            "product": {
+                "serialId": "C02TH1RXGVC8"
+            },
+            "parts": [
+                {
+                    "partNumber": "661-07946",
+                    "partDescription": "Top Case with Battery, ANSI, Space Gray",
+                    "partStatus": "ALLOCATED",
+                    "partSection": "QUOTED",
+                    "partAddedDate": 1584268741632,
+                    "partAddedUserId": "1936466563",
+                    "partAddedUserName": "Candy Cheng",
+                    "effectiveSequence": 1,
+                    "replacementSerialRequired": false,
+                    "eligibleForOrder": true
+                },
+                {
+                    "partNumber": "661-07946",
+                    "partDescription": "Top Case with Battery, ANSI, Space Gray",
+                    "partSection": "USED",
+                    "partAddedDate": 1584326436965,
+                    "partAddedUserId": "1146161718",
+                    "partAddedUserName": "Andriy Tang",
+                    "effectiveSequence": 1,
+                    "replacementSerialRequired": false,
+                    "eligibleForOrder": true,
+                    "order": {
+                        "orderedDate": 0,
+                        "userId": "1207817525",
+                        "preferredName": "Jerry Chu"
+                    }
+                }
+            ],
+            "hazMat": false,
+            "sapRepairStatus": "RLSD"
+        },
+        {
+            "repairId": "R448574811",
+            "comment": "MLB @CC",
+            "repairStatus": "RFP",
+            "repairType": "ISR",
+            "createdDate": 1583752594649,
+            "customer": {
+                "firstName": "Hou Fung Felix",
+                "lastName": "WONG",
+                "phoneNum": "63358673",
+                "alpha2CountryCode": "HK"
+            },
+            "product": {
+                "serialId": "C02VL9BTHV2M"
+            },
+            "parts": [
+                {
+                    "partNumber": "661-07652",
+                    "partDescription": "Logic Board, 3.1GHz, 8GB, 512GB, ETSI",
+                    "partStatus": "ORDERED",
+                    "partSection": "QUOTED",
+                    "partAddedDate": 1583752594670,
+                    "partAddedUserId": "1130033858",
+                    "partAddedUserName": "David Leung",
+                    "effectiveSequence": 1,
+                    "replacementSerialRequired": false,
+                    "eligibleForOrder": false,
+                    "order": {
+                        "purchaseOrderNumber": "4827119340",
+                        "orderStatus": "PRCD",
+                        "orderedDate": 1583752594671,
+                        "userId": "1130033858",
+                        "preferredName": "David Leung"
+                    }
+                },
+                {
+                    "partNumber": "661-07652",
+                    "partDescription": "Logic Board, 3.1GHz, 8GB, 512GB, ETSI",
+                    "partStatus": "ALLOCATED",
+                    "partSection": "USED",
+                    "partAddedDate": 1584007273109,
+                    "partAddedUserId": "1207821200",
+                    "partAddedUserName": "Eason Chan",
+                    "effectiveSequence": 1,
+                    "replacementSerialRequired": false,
+                    "eligibleForOrder": false,
+                    "order": {
+                        "orderedDate": 0,
+                        "userId": "1130033858",
+                        "preferredName": "David Leung"
+                    }
+                }
+            ],
+            "hazMat": false,
+            "sapRepairStatus": "RLSD"
+        }
+    ],
+    "partSummary": [
+        {
+            "partNumber": "923-02650",
+            "partDescription": "Battery, iPhone Xs Max",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "661-13154",
+            "partDescription": "Touch ID with Audio Board Flex, Space Gray",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-02397",
+            "partDescription": "LCD, Display Module",
+            "partStock": "4"
+        },
+        {
+            "partNumber": "661-8311",
+            "partDescription": "Top Case with Battery",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "661-09739",
+            "partDescription": "Logic Board, 2.3GHz i5, 8GB, 256GB",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "661-11232",
+            "partDescription": "Display, iPhone XR",
+            "partStock": "46"
+        },
+        {
+            "partNumber": "ZA661-11022",
+            "partDescription": "128GB, Red, CH, iPhone XR, CI/AR-ITS",
+            "partStock": "7"
+        },
+        {
+            "partNumber": "661-05608",
+            "partDescription": "Silver Aluminum, 42mm, Apple Watch Series 2 ",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZA661-11021",
+            "partDescription": "128GB, White, CH, iPhone XR, CI/AR-ITS",
+            "partStock": "7"
+        },
+        {
+            "partNumber": "ZP661-03027",
+            "partDescription": "128GB, Rose Gold, Non-Band 30, iPhone 6s Plus, Asia",
+            "partStock": "6"
+        },
+        {
+            "partNumber": "ZP661-09066",
+            "partDescription": "Gold, 42mm, Watch Series 3 Cellular, English Sing",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "PA661-05378",
+            "partDescription": "Beats X, Black, Pacific",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-10396",
+            "partDescription": "Silver Aluminum, 40mm, Apple Watch Series 4 GPS, ITP",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "PA661-13080",
+            "partDescription": "Case and Earbuds, Powerbeats Pro, Black, Pacific",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "923-0441",
+            "partDescription": "IPD Flex Cable",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "661-02392",
+            "partDescription": "Board, Logic, 1.6GHz, 8GB",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "923-00466",
+            "partDescription": "I/O Wall and Inlet",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "923-0667",
+            "partDescription": "Board, MagSafe 2",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-07652",
+            "partDescription": "Logic Board, 3.1GHz, 8GB, 512GB, ETSI",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "ZP661-13511",
+            "partDescription": "Gold Aluminum, 44mm, Apple Watch Series 5, GPS",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "Z661-09655",
+            "partDescription": "128GB, Silver, iPad (6th gen), Wi-Fi, INT",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "PA661-09131",
+            "partDescription": "Earphone, Beats X, Matte Silver, ITP",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZA661-10696",
+            "partDescription": "64GB, Gold, iPhone Xs Max, CH-OD, CI/AR",
+            "partStock": "7"
+        },
+        {
+            "partNumber": "661-12830",
+            "partDescription": "Display, Silver",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-12566",
+            "partDescription": "Logic Board, 1.4GHz, 8GB, 128GB",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-06339",
+            "partDescription": "Logic Board, i7, 2.9GHz, 16GB, 1TB, RadeonPro 460, ETSI",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-12832",
+            "partDescription": "Logic Board, i5, 1.6GHz, 8GB, 128GB",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "923-01036",
+            "partDescription": "SVC,BATTERY,IPHONE 6S PLUS",
+            "partStock": "60"
+        },
+        {
+            "partNumber": "661-05473",
+            "partDescription": "128GB, Black, MM, iPhone 7, CI/AR",
+            "partStock": "14"
+        },
+        {
+            "partNumber": "661-13114",
+            "partDescription": "SVC,DISPLAY,IPHONE X",
+            "partStock": "62"
+        },
+        {
+            "partNumber": "ZA661-11015",
+            "partDescription": "64GB, White, CH, iPhone XR, CI/AR-ITS",
+            "partStock": "3"
+        },
+        {
+            "partNumber": "ZP661-08712",
+            "partDescription": "64GB, Space Gray, MM, iPhone X, CI/AR, ITP",
+            "partStock": "9"
+        },
+        {
+            "partNumber": "923-00496",
+            "partDescription": "Bottom Case",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "923-01480",
+            "partDescription": "I/O Board",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "923-0501",
+            "partDescription": "Cable, Flex, I/O Board",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-7542",
+            "partDescription": "Power Supply",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "ZP661-13512",
+            "partDescription": "Space Gray Aluminum, 44mm, Apple Watch Series 5, GPS",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-05800",
+            "partDescription": "128GB, Black, MM, iPhone 7 Plus, CI/AR",
+            "partStock": "6"
+        },
+        {
+            "partNumber": "661-15683",
+            "partDescription": "Touch ID Board",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-07954",
+            "partDescription": "Top Case with Battery, ANSI, Space Gray",
+            "partStock": "4"
+        },
+        {
+            "partNumber": "923-02649",
+            "partDescription": "Speaker, iPhone Xs Max",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "661-13163",
+            "partDescription": "Top Case, with Battery, ANSI, Space Gray",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-11677",
+            "partDescription": "Touch ID Board",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "661-10376",
+            "partDescription": "Touch ID Board",
+            "partStock": "6"
+        },
+        {
+            "partNumber": "923-0557",
+            "partDescription": "Speakers, Left and Right",
+            "partStock": "3"
+        },
+        {
+            "partNumber": "661-12829",
+            "partDescription": "Display, Space Gray",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-08030",
+            "partDescription": "Display Assembly, Space Gray",
+            "partStock": "4"
+        },
+        {
+            "partNumber": "661-7480",
+            "partDescription": "Top Case with Keyboard",
+            "partStock": "3"
+        },
+        {
+            "partNumber": "661-10356",
+            "partDescription": "Display, Silver",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "661-08031",
+            "partDescription": "Display Assembly, Silver",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "ZP661-12697",
+            "partDescription": "iPad mini (5th gen), Wi-Fi, 64GB, Silver, ITP",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "ZP661-13943",
+            "partDescription": "Space Gray Aluminum, 44mm, Apple Watch Series 5, Cellular",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-11077",
+            "partDescription": "Space Gray Aluminum, 40mm, Apple Watch Series 4 Cellular, ITP",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-09077",
+            "partDescription": "Silver, 42mm, Watch Series 3 NIKE Cellular, English Sing",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "PA661-12565",
+            "partDescription": "urBeats 3, Satin Gold, PAC",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-11076",
+            "partDescription": "Silver Aluminum, 40mm, Apple Watch Series 4 Cellular, ITP",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-08539",
+            "partDescription": "Silver, 38mm, Watch Series 3 GPS",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "923-00407",
+            "partDescription": "Input Device (IPD) to Logic Board Flex Cable (ANSI/ISO)",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "661-00679",
+            "partDescription": "Board, Logic, 2.5GHz, Discrete GPU 16GB",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "923-01786",
+            "partDescription": "Bottom Case, Space Gray, ",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-13953",
+            "partDescription": "White Ceramic, 44mm, Apple Watch Series 5 Edition, Cellular",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-08716",
+            "partDescription": "256GB, Silver, MM, iPhone X, CI/AR, ITP",
+            "partStock": "19"
+        },
+        {
+            "partNumber": "Z661-08070",
+            "partDescription": "64GB, Rose Gold, iPad Pro 10.5-inch, Wi-Fi",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-03285",
+            "partDescription": "Hard Drive, 2TB, iMac 27”",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "923-01376",
+            "partDescription": "Trackpad Cable, Flex",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "661-07971",
+            "partDescription": "Display Assembly, Silver",
+            "partStock": "8"
+        },
+        {
+            "partNumber": "661-7548",
+            "partDescription": "B, Graphics Board, 3GB VRAM, D500, AMD, FIREPRO",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-10654",
+            "partDescription": "64GB, Gold, iPhone Xs Max, ROW, CI/AR-ITP",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "923-01962",
+            "partDescription": "Speaker, iPhone X",
+            "partStock": "31"
+        },
+        {
+            "partNumber": "661-13160",
+            "partDescription": "Top Case, with Battery, ANSI, Silver",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-10344",
+            "partDescription": "Touch ID Board",
+            "partStock": "3"
+        },
+        {
+            "partNumber": "661-02360",
+            "partDescription": "Display, LCD",
+            "partStock": "13"
+        },
+        {
+            "partNumber": "923-01456",
+            "partDescription": "Bottom Case, Space Gray",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "661-07648",
+            "partDescription": "Logic Board, 3.1GHz, 8GB, 256GB, ETSI",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "661-07950",
+            "partDescription": "Top Case with Battery, ANSI, Space Gray",
+            "partStock": "7"
+        },
+        {
+            "partNumber": "661-04876",
+            "partDescription": "Bottom Case with Battery, Rose Gold",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "923-02813",
+            "partDescription": "I/O Board",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "661-00063",
+            "partDescription": "Logic Board, 1.4 GHz, 8 GB",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-10915",
+            "partDescription": "128GB, Yellow, ROW, iPhone XR, CI/AR-ITP",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-10474",
+            "partDescription": "64GB, Space Gray, iPhone Xs, NA, CI/AR",
+            "partStock": "4"
+        },
+        {
+            "partNumber": "ZP661-11091",
+            "partDescription": "Space Gray, 44mm, Apple Watch Series 4 Nike Cellular, ITP",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-14496",
+            "partDescription": "SVC,WATCH SERIES 3(GPS),BLSH GD,42MM,QP",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-06279",
+            "partDescription": "Logic Board, i7, 2.7GHz, 16GB, 512GB, RadeonPro 455, ETSI",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "923-00976",
+            "partDescription": "Trackpad",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "661-06247",
+            "partDescription": "Logic Board, i7, 2.6GHz, 16GB, 256GB, RadeonPro 450, ETSI",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-07946",
+            "partDescription": "Top Case with Battery, ANSI, Space Gray",
+            "partStock": "8"
+        },
+        {
+            "partNumber": "PA661-05683",
+            "partDescription": "PowerBeats 3 Wireless, Black, Pacific",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "661-08544",
+            "partDescription": "Space Gray, 42mm, Watch Series 3 GPS",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-13510",
+            "partDescription": "Silver Aluminum, 44mm, Apple Watch Series 5, GPS",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-11083",
+            "partDescription": "Space Gray Aluminum, 44mm, Apple Watch Series 4 Cellular, ITP",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-05600",
+            "partDescription": "Space Gray Aluminum, 42mm, Apple Watch Series 1 ",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-13656",
+            "partDescription": "Space Gray, 128GB, iPad 7th gen, Cellular, ITP",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-03275",
+            "partDescription": "Apple Pencil",
+            "partStock": "6"
+        },
+        {
+            "partNumber": "Z661-06879",
+            "partDescription": "512GB, Gold, iPad Pro 10.5-inch, Cellular, Int.",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-07761",
+            "partDescription": "Logic Board, 2.8GHZ, 16GB, RP555, 256GB, ETSI",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-12818",
+            "partDescription": "Logic Board, i5, 2.4GHz, 16GB, 512GB",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-02359",
+            "partDescription": "Board, Logic, 3.1 GHz, 16GB",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "ZP661-08715",
+            "partDescription": "256GB, Space Gray, MM, iPhone X, CI/AR, ITP",
+            "partStock": "23"
+        },
+        {
+            "partNumber": "ZA661-11019",
+            "partDescription": "64GB, Blue, CH, iPhone XR, CI/AR-ITS",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "661-05478",
+            "partDescription": "256GB, Black, MM, iPhone 7, CI/AR",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "ZP661-03114",
+            "partDescription": "128GB, Rose Gold, Non-Band 30, iPhone 6s, CI/AR, Asia",
+            "partStock": "3"
+        },
+        {
+            "partNumber": "661-02898",
+            "partDescription": "Camera, iPhone 6s Plus",
+            "partStock": "7"
+        },
+        {
+            "partNumber": "661-06769",
+            "partDescription": "Logic Board, 1.2GHz, 8GB, 256GB, ETSI",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "661-07294",
+            "partDescription": "SVC,IPHONE 7 DISPLAY,SLVR,DH",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "661-12582",
+            "partDescription": "Logic Board, 1.7GHz, 16GB, 256GB",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-6588",
+            "partDescription": "Logic Board, 2.5GHz, Dual-Core, IVB",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-03987",
+            "partDescription": "64GB, Rose Gold, HB, iPhone SE, CI/AR, Singapore",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "ZA661-13256",
+            "partDescription": "256GB, Midnight Green, CH, iPhone 11 Pro, CI/AR-ITS",
+            "partStock": "13"
+        },
+        {
+            "partNumber": "661-14495",
+            "partDescription": "SVC,WATCH SERIES 3(GPS),SP GRAY,42MM,QP",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-05475",
+            "partDescription": "128GB, Gold, MM, iPhone 7, CI/AR",
+            "partStock": "6"
+        },
+        {
+            "partNumber": "ZP661-03110",
+            "partDescription": "64GB, Rose Gold, Non-Band 30, iPhone 6s, CI/AR, Asia",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "ZA661-13376",
+            "partDescription": "128GB, White, CH, iPhone 11, CI/AR-ITS",
+            "partStock": "6"
+        },
+        {
+            "partNumber": "661-02267",
+            "partDescription": "Bottom Case with Battery,Space Gray",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-02252",
+            "partDescription": "Logic Board,ETSI, 1.2GHz, 512GB",
+            "partStock": "3"
+        },
+        {
+            "partNumber": "661-06785",
+            "partDescription": "Display Assembly, Space Gray",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "923-0500",
+            "partDescription": "Cable, Flex, Graphics Board",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-08497",
+            "partDescription": "64GB, Gold, MM, iPhone 8 Plus, CI/AR, ITP",
+            "partStock": "5"
+        },
+        {
+            "partNumber": "661-07512",
+            "partDescription": "128GB, Red, MM, iPhone 7, CI/AR",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "Z661-8314",
+            "partDescription": "iPad mini 2 Wi-Fi, 32GB, Space Gray, International",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "Z661-00439",
+            "partDescription": "iPad Air 2, Wi-Fi, 128GB, Gold, International",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-12993",
+            "partDescription": "Top Case with Battery, Space Gray, ANSI",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-06788",
+            "partDescription": "Display Assembly, Rose Gold,",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "923-00509",
+            "partDescription": "Speaker Set, Left and Right",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-8153",
+            "partDescription": "Display Assembly",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "661-8154",
+            "partDescription": "Top Case with Battery",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "661-7886",
+            "partDescription": "Power Supply, 300W",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "Z661-04317",
+            "partDescription": "256GB, Rose Gold, Wi-Fi, iPad Pro 9.7-inch, English Int",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-11092",
+            "partDescription": "Apple Watch Series 4 Hermes, 40mm, ITP",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "923-01244",
+            "partDescription": "Battery, iPhone 7 Plus",
+            "partStock": "82"
+        },
+        {
+            "partNumber": "ZP661-10400",
+            "partDescription": "Space Gray Aluminum, 44mm, Apple Watch Series 4 GPS, ITP",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-05476",
+            "partDescription": "128GB, Rose Gold, MM, iPhone 7, CI/AR",
+            "partStock": "11"
+        },
+        {
+            "partNumber": "661-05474",
+            "partDescription": "128GB, Silver, MM, iPhone 7, CI/AR",
+            "partStock": "3"
+        },
+        {
+            "partNumber": "661-08541",
+            "partDescription": "Gold, 38mm, Watch Series 3 GPS",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-7543",
+            "partDescription": "Card, CPU Riser, 2.7 GHz, 12 C",
+            "partStock": "4"
+        },
+        {
+            "partNumber": "ZA661-13375",
+            "partDescription": "128GB, Black, CH, iPhone 11, CI/AR-ITS",
+            "partStock": "9"
+        },
+        {
+            "partNumber": "ZP661-08776",
+            "partDescription": "256GB, Silver, MM, iPhone 8, CI/AR, ITP",
+            "partStock": "3"
+        },
+        {
+            "partNumber": "ZA661-11020",
+            "partDescription": "128GB, Black, CH, iPhone XR, CI/AR-ITS",
+            "partStock": "11"
+        },
+        {
+            "partNumber": "923-03934",
+            "partDescription": "I/O Board",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-14104",
+            "partDescription": "Logic Board, 2.6GHz, 16GB, 5300M, 512GB",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-13159",
+            "partDescription": "Top Case, with Battery, ANSI, Space Gray",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "661-12592",
+            "partDescription": "Top Case with Keyboard, ANSI, Space Gray",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-07970",
+            "partDescription": "Display Assembly, Space Gray",
+            "partStock": "10"
+        },
+        {
+            "partNumber": "661-06796",
+            "partDescription": "Top Case with Keyboard, ANSI, Rose Gold",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "661-7531",
+            "partDescription": "A, Graphics Board, 3GB VRAM, D500, AMD, FIREPRO",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZA661-11030",
+            "partDescription": "256GB, Coral, CH, iPhone XR, CI/AR-ITS",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "ZA661-10691",
+            "partDescription": "256GB, Space Gray, iPhone Xs Max, CH-OD, CI/AR",
+            "partStock": "16"
+        },
+        {
+            "partNumber": "661-09989",
+            "partDescription": "Logic Board, i7, 2.2GHz, 16GB, 555X, 256GB",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "661-8310",
+            "partDescription": "Display Assembly",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-05252",
+            "partDescription": "Logic Board, i5, 2.9,  8GB, 256GB, ETSI",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "Z661-09656",
+            "partDescription": "128GB, Gold, iPad (6th gen), Wi-Fi, INT",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-10787",
+            "partDescription": "iPad Pro 11-inch, Wi-Fi, 256GB, Space Gray",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "ZA661-13385",
+            "partDescription": "256GB, Purple, CH, iPhone 11, CI/AR-ITS",
+            "partStock": "3"
+        },
+        {
+            "partNumber": "661-05797",
+            "partDescription": "32GB, Silver, MM, iPhone 7 Plus, CI/AR",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-08256",
+            "partDescription": "LOANER,IPHONE 7,MM,32GB",
+            "partStock": "3"
+        },
+        {
+            "partNumber": "PA661-10085",
+            "partDescription": "Studio 3 Wireless, Defiant Black, Pacific",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-02552",
+            "partDescription": "Space Gray Aluminum, 42mm, Apple Watch Sport (1st gen)",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-09070",
+            "partDescription": "Space Black Stainless Steel, 42mm, Watch Series 3 Cellular, English Sing",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-02243",
+            "partDescription": "Top Case with Keyboard, Space Gray",
+            "partStock": "3"
+        },
+        {
+            "partNumber": "PA661-8143",
+            "partDescription": "Card, Wireless, PAC",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-11082",
+            "partDescription": "Silver Aluminum, 44mm, Apple Watch Series 4 Cellular, ITP",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-11085",
+            "partDescription": "Stainless Steel, 44mm, Apple Watch Series 4 Cellular, ITP",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-13949",
+            "partDescription": "SVC,WATCH SERIES 5 NIKE(C)44MM,GRAY",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZP661-12386",
+            "partDescription": "LOANER,IPHONE 8,MM,64GB-ITP",
+            "partStock": "7"
+        },
+        {
+            "partNumber": "923-01034",
+            "partDescription": "SVC,BATTERY,IPHONE 6 PLUS",
+            "partStock": "33"
+        },
+        {
+            "partNumber": "661-07951",
+            "partDescription": "Top Case with Battery, ANSI, Silver",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "661-09710",
+            "partDescription": "Logic Board, i5, 1.6GHz, 8GB, 256GB",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "923-03210",
+            "partDescription": "IO Board",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-7527",
+            "partDescription": "Board, Logic",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-13575",
+            "partDescription": "Rear Camera, iPhone 11",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "ZA661-10698",
+            "partDescription": "512GB, Gold, iPhone Xs Max, CH-OD, CI/AR",
+            "partStock": "5"
+        },
+        {
+            "partNumber": "ZA661-10694",
+            "partDescription": "256GB, Silver, iPhone Xs Max, CH-OD, CI/AR",
+            "partStock": "7"
+        },
+        {
+            "partNumber": "ZP661-09067",
+            "partDescription": "Stainless Steel, 38mm, Watch Series 3 Cellular, English Sing",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-05599",
+            "partDescription": "Silver Aluminum, 42mm, Apple Watch Series 1 ",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "ZA661-10697",
+            "partDescription": "256GB, Gold, iPhone Xs Max, CH-OD, CI/AR",
+            "partStock": "15"
+        },
+        {
+            "partNumber": "ZP661-09065",
+            "partDescription": "Space Gray, 42mm, Watch Series 3 Cellular, English Sing",
+            "partStock": "0"
+        },
+        {
+            "partNumber": "661-10037",
+            "partDescription": "Display, Space Gray",
+            "partStock": "1"
+        },
+        {
+            "partNumber": "661-07947",
+            "partDescription": "Top Case with Battery, ANSI, Silver",
+            "partStock": "6"
+        },
+        {
+            "partNumber": "661-7553",
+            "partDescription": "Board, I/O",
+            "partStock": "2"
+        },
+        {
+            "partNumber": "923-01389",
+            "partDescription": "Vent/Antenna Module",
+            "partStock": "0"
+        }
+    ]
+}

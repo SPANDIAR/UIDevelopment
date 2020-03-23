@@ -1,0 +1,81 @@
+.container{
+  padding: 0;
+  margin: auto;
+  width: 760px;
+  background: #FFF0F5;
+}
+
+.container::after{
+  content: ".";
+  visibility: hidden;
+  clear: both;
+}
+
+.intro h1{
+  text-align: center;
+}
+
+.aboutUs{
+  float: left;
+  width: 500px;
+}
+
+.aboutUs h3{
+  font-style: italic;
+}
+
+.aboutUs p{
+  font-family: sans-serif;
+  padding: 0 15px;
+}
+
+.contactUs{
+  padding: 0 5px;
+  background: #DDA0DD;
+  float: right;
+  width: 200px;
+  font-style: italic;
+}
+
+.contactUs h2{
+  display: block;
+  background: #800080;
+  padding: 0px;
+  color: #FFF;
+  position: relative;
+  left: -10px;
+}
+
+.reserve{
+  float: right;
+  width: 200px;
+  padding: 5px, 10px;
+  background: #000;
+  color: #FFF;
+}
+
+.reserve legend{
+  text-align: center;
+  text-transform: full-width;
+}
+
+.reserve label{
+  display: block;
+  background: #C71585;
+  width: 130px;
+  color: #FFF;
+  position: relative;
+  left: -5px;
+  font-style:oblique;
+}
+
+.footer{
+  clear: both;
+  text-align: center;
+  font-style: italic;
+  display: block;
+  height: 20px;
+  background: #800080;
+  color: #FFFFF0;
+  padding: 20px 0 0;
+}

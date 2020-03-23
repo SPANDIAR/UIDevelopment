@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Try out Angular</title>
+    <script src="./angular.js" charset="utf-8"></script>
+    <script src="./app.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>Hello!!!</h1>
+    <div class="entry" ng-controller="entryCtrlr">
+      <p>Time is: {{currentTime}}</p>
+      <p>Value of timeOfDay is: {{timeOfDay}}</p>
+      <p ng-if="timeOfDay<12">Good Morning</p>
+      <p ng-if="timeOfDay>17">Good Evening</p>
+      <button type="button" name="button" ng-click="clock()">Refresh</button>
+    </div>
+    <div class="modelExercises" ng-controller="formCtrlr">
+      <p>Name: <input type="text" name="" value="" ng-model="userName"></p>
+      <p>Date of Birth: <input type="date" name="" value="" ng-model="DoB" ng-change="findAge()"> Age: {{age}} </p>
+      Gender:
+      <p>
+        Male: <input type="radio" name="" value="M" ng-model="gender">
+        Female: <input type="radio" name="" value="F" ng-model="gender">
+      </p>
+      <button type="submit" name="button">Submit</button>
+    </div>
+  </body>
+</html>

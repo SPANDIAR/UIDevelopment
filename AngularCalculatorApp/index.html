@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="calculator">
+  <head>
+    <meta charset="utf-8">
+    <title>The Angular Calculator</title>
+  </head>
+  <script type="text/javascript" src="./angular.js"></script>
+  <script type="text/javascript" src="./app.js"></script>
+  <body>
+    <h2>the Calci</h2>
+    <div class="theCalci" ng-controller="basicMath as math">
+      <input type="number" name="" value="" ng-model=math.var1>
+      <span ng-bind="math.mathOp"></span>
+      <input type="number" name="" value="" ng-model=math.var2>
+      <button type="button" name="button" ng-click="math.findTotal()">=</button>
+      <span ng-bind="math.total"></span>
+      <p></p>
+      <button type="button" name="add" ng-model=math.oper value="add" ng-click="math.operation('+')">+</button>
+      <button type="button" name="subtract" ng-model=math.oper value="subtract" ng-click="math.operation('-')">-</button>
+      <button type="button" name="multiply" value="multiply" ng-model=math.oper ng-click="math.operation('*')">*</button>
+      <button type="button" name="divide" value="divide" ng-model=math.oper ng-click="math.operation('/')">/</button>
+      <p><button type="button" name="clear" value="clear" ng-model=math.oper ng-click="math.operation('clear')">Clear</button></p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="todoApp">
+  <head>
+    <meta charset="utf-8">
+    <title>To-Do</title>
+  </head>
+    <script src="./angular.js"></script>
+    <script src="./to-do.js"></script>
+  <body>
+    <h2>To-Do List</h2>
+    <h3>Add a "to-do" to your list</h3>
+      <div ng-controller="addItemToDo as itemList">
+        <input type="text" ng-model="itemList.itemToAdd">
+        <p><button type="button" ng-click="itemList.addSelected()">Add</button></p>
+        <p>Your To-Do's:</p>
+        <p><button type="button" ng-click="itemList.editSelected()" ng-hide="itemList.isEdit">Edit</button></p>
+        <p><button type="button" ng-click="itemList.editSelected()" ng-show="itemList.isEdit">Done</button></p>
+          <div >
+            <ol>
+              <p>
+                <li ng-repeat="list in itemList.todoList track by $index">
+                  <span ng-bind="list" ng-hide="itemList.isEdit"></span>
+                  <input type="text" ng-show="itemList.isEdit" ng-model="list">
+                  <span><button ng-hide="itemList.isEdit" ng-click="itemList.deleteSelected($index)">Delete</button></span>
+                </li>
+
+              </p>
+            </ol>
+          </div>
+      </div>
+  </body>
+</html>

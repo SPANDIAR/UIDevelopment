@@ -1,0 +1,725 @@
+{
+  "libraryBooks": [
+    {
+      "id": 0,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Don"
+        },
+        {
+          "attributeId": 2,
+          "bookGenre": "Mafia"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "bookName": "Ponniyin Selvan",
+      "author": "Amarar Kalki",
+      "language": "TAM",
+      "publisher": "Vikatan Publications",
+      "year": 1994,
+      "volume": 1,
+      "isbn": "9788184763997",
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": []
+    },
+    {
+      "id": 2,
+      "bookName": "Ponniyin Selvan",
+      "author": "Amarar Kalki",
+      "language": "TAM",
+      "publisher": "Vikatan Publications",
+      "year": 1994,
+      "volume": 2,
+      "isbn": "9788184763997",
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": []
+    },
+    {
+      "id": 3,
+      "bookName": "Ponniyin Selvan",
+      "author": "Amarar Kalki",
+      "language": "TAM",
+      "publisher": "Vikatan Publications",
+      "year": 1994,
+      "volume": 3,
+      "isbn": "9788184763997",
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": []
+    },
+    {
+      "id": 4,
+      "bookName": "Ponniyin Selvan",
+      "author": "Amarar Kalki",
+      "language": "TAM",
+      "publisher": "Vikatan Publications",
+      "year": 1994,
+      "volume": 4,
+      "isbn": "9788184763997",
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": []
+    },
+    {
+      "id": 5,
+      "bookName": "Ponniyin Selvan",
+      "author": "Amarar Kalki",
+      "language": "TAM",
+      "publisher": "Vikatan Publications",
+      "year": 1994,
+      "volume": 5,
+      "isbn": "9788184763997",
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": []
+    },
+    {
+      "id": 6,
+      "bookName": "God's Debris - A Thought Experiment",
+      "author": "Scott Adams",
+      "language": "ENG",
+      "publisher": "Andrews McMeel Publishing, LLC",
+      "year": 2001,
+      "volume": 0,
+      "isbn": "0-7407-4787-8",
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": []
+    },
+    {
+      "id": 7,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": []
+    },
+    {
+      "id": 8,
+      "bookName": "The Alchemist",
+      "author": "Paulo Coelho",
+      "language": "ENG",
+      "publisher": "HarperTorch",
+      "year": 1993,
+      "volume": 1,
+      "isbn": "0062502174",
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": []
+    },
+    {
+      "id": 9,
+      "bookName": "The Alchemist",
+      "author": "Paulo Coelho",
+      "language": "ENG",
+      "publisher": "HarperTorch",
+      "year": 1993,
+      "volume": 1,
+      "isbn": "0-06-250217-4",
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": []
+    },
+    {
+      "id": 10,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Crime Novel"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 2,
+          "bookGenre": "Philosophy"
+        },
+        {
+          "attributeId": 1,
+          "bookGenre": "Adventure"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Adventure"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Adventure"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 2,
+          "bookGenre": "Crime"
+        },
+        {
+          "attributeId": 1,
+          "bookGenre": "Adventure"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "bookName": "Kane & Abel",
+      "author": "Jeffrey Archer",
+      "language": "ENG",
+      "publisher": "Hodder & Stoughton",
+      "year": 1979,
+      "volume": 1,
+      "isbn": "0-340-24594-8",
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Fiction"
+        },
+        {
+          "attributeId": 2,
+          "bookGenre": "Family"
+        },
+        {
+          "attributeId": 3,
+          "bookGenre": "Life"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "bookName": "The Eleventh Commandment",
+      "author": "Jeffrey Archer",
+      "language": "ENG",
+      "publisher": "Harper Collins",
+      "year": 1998,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Political Fiction"
+        },
+        {
+          "attributeId": 2,
+          "bookGenre": "Crime"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "bookName": "If Tomorrow Comes",
+      "author": "Sidney Sheldon",
+      "language": "ENG",
+      "publisher": "Warner Books",
+      "year": 1985,
+      "volume": 1,
+      "isbn": "0-446-35742-1",
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Crime Fiction"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "bookName": "Master of the Game",
+      "author": "Sidney Sheldon",
+      "language": "ENG",
+      "publisher": "Warner Books",
+      "year": 1982,
+      "volume": 1,
+      "isbn": "0-688-01365-1",
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Thriller"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "bookName": "If Tomorrow Comes",
+      "author": "Sidney Sheldon",
+      "language": "ENG",
+      "publisher": "Warner Books",
+      "year": 1985,
+      "volume": 1,
+      "isbn": "0-446-35742-1",
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Crime Fiction"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "bookName": "Tomorrow Never Comes",
+      "author": "James Bond",
+      "language": "ENG",
+      "publisher": "Hollywood",
+      "year": 2000,
+      "volume": 1,
+      "isbn": "0-576-45842-1",
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Crime Fiction"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "bookName": "Casino Royale",
+      "author": "James Bond",
+      "language": "ENG",
+      "publisher": "Hollywood",
+      "year": 2007,
+      "volume": 1,
+      "isbn": "0-576-45852-6",
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 2,
+          "bookGenre": "Action"
+        },
+        {
+          "attributeId": 1,
+          "bookGenre": "Adventure"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "bookName": "SPECTRUM",
+      "author": "James Bond",
+      "language": "ENG",
+      "publisher": "Hollywood",
+      "year": 2010,
+      "volume": 1,
+      "isbn": "0-776-43852-6",
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Thriller"
+        },
+        {
+          "attributeId": 2,
+          "bookGenre": "Action"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "bookName": "The Street Lawyer",
+      "author": "John Grisham",
+      "language": "ENG",
+      "publisher": "Doubleday",
+      "year": 1998,
+      "volume": 1,
+      "isbn": "9780385339094",
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": []
+    },
+    {
+      "id": 46,
+      "bookName": "The Street Lawyer",
+      "author": "John Grisham",
+      "language": "ENG",
+      "publisher": "Doubleday",
+      "year": 1998,
+      "volume": 1,
+      "isbn": "9780385339094",
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": []
+    },
+    {
+      "id": 48,
+      "bookName": "Cindrella",
+      "author": "Unknown",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": []
+    },
+    {
+      "id": 67,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": []
+    },
+    {
+      "id": 68,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Kids"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Mystery"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Crime"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Mystery"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Mystery"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Mystery"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Crime"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Crime"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Crime"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Crime"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 2,
+          "bookGenre": "Mystery"
+        },
+        {
+          "attributeId": 1,
+          "bookGenre": "Crime"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 1,
+          "bookGenre": "Crime"
+        },
+        {
+          "attributeId": 2,
+          "bookGenre": "Mystery"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 2,
+          "bookGenre": "Mystery"
+        },
+        {
+          "attributeId": 1,
+          "bookGenre": "Crime"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "bookName": "The Godfather",
+      "author": "Mario Puzo",
+      "language": "ENG",
+      "publisher": "G. P. Putnam's Sons",
+      "year": 1969,
+      "volume": 1,
+      "isbn": null,
+      "bookSnippet": null,
+      "bookRating": 0,
+      "bookAttributes": [
+        {
+          "attributeId": 2,
+          "bookGenre": "Mafia"
+        },
+        {
+          "attributeId": 1,
+          "bookGenre": "Don"
+        }
+      ]
+    }
+  ]
+}

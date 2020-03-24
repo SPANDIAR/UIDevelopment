@@ -13,57 +13,14 @@
     this.selectedBookGenres = {};
 
     this.populateBookAttributes = function() {
-
-      if (this.bookGenre.fiction) {
-        this.bookAttributes.push({
-          "bookGenre": "Fiction"
-        })
+      for(key in this.bookGenre) {
+        //console.log('Iterating the checkboxes - ' + key + ' - ' + this.bookGenre[key]);
+        if(this.bookGenre[key]) {
+          this.bookAttributes.push({
+            'bookGenre': key
+          })
+        }
       }
-
-      if (this.bookGenre.classic) {
-        this.bookAttributes.push({
-          "bookGenre": "Classic"
-        })
-      }
-
-      if (this.bookGenre.romance) {
-        this.bookAttributes.push({
-          "bookGenre": "Romance"
-        })
-      }
-
-      if (this.bookGenre.crime) {
-        this.bookAttributes.push({
-          "bookGenre": "Crime"
-        })
-      }
-
-      if (this.bookGenre.thriller) {
-        this.bookAttributes.push({
-          "bookGenre": "Thriller"
-        })
-      }
-
-      if (this.bookGenre.nonFiction) {
-        this.bookAttributes.push({
-          "bookGenre": "Non Fiction"
-        })
-      }
-
-      if (this.bookGenre.science) {
-        this.bookAttributes.push({
-          "bookGenre": "Science"
-        })
-      }
-
-
-      if (this.bookGenre.history) {
-        this.bookAttributes.push({
-          "bookGenre": "History"
-        })
-      }
-
-      //console.log("Book Attributes Array " + this.bookAttributes);
     };
 
     library.getLibraryBooks()

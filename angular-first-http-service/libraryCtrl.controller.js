@@ -13,7 +13,7 @@
     this.selectedBookGenres = {};
 
     this.populateBookAttributes = function() {
-      for(key in this.bookGenre) {
+      for(let key in this.bookGenre) {
         //console.log('Iterating the checkboxes - ' + key + ' - ' + this.bookGenre[key]);
         if(this.bookGenre[key]) {
           this.bookAttributes.push({

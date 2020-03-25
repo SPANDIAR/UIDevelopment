@@ -1,13 +1,19 @@
 console.log('this message is from my js file');
 
-const output = fizzBuzz(22);
-console.log(output);
+const status = checkSpeed(50);
+console.log(status);
 
-function fizzBuzz(input){
-  //console.log(typeof(input));
-  if(typeof(input) !== 'number') return 'Not a number';
-  else if ((input % 3 === 0) && (input % 5 === 0)) return 'fizzBuzz';
-  else if(input % 3 === 0) return 'Fizz';
-  else if(input % 5 === 0) return 'Buzz';
-  else return input;
+function checkSpeed(speed) {
+  const speedLimit = 70;
+
+  if (speed - speedLimit <= 4)
+    return 'ok';
+  else {
+    let excessSpeed = speed - speedLimit;
+    let speedingTicketPoint = Math.floor(excessSpeed / 5);
+    if (speedingTicketPoint >= 12)
+      return 'Licence Suspended';
+    else
+      return speedingTicketPoint;
+  }
 }

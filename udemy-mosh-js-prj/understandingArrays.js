@@ -15,6 +15,12 @@ let familyArray = [
     age: 38
   },
   {
+    who: 'brother',
+    fName: 'Ranjith',
+    lName: 'Senny',
+    age: 3
+  },
+  {
     who: 'mom',
     fName: 'Karthi',
     lName: 'Ravee',
@@ -110,12 +116,11 @@ familyArray.sort(function(member1, member2){
 // Lambda's in JS
 console.log('Lambda\'s in JS');
 
-familyArray.forEach(function(member) {
-  console.log(member.lName);
+familyArray.forEach(function(member, index) {
+  console.log(index, member.lName);
 });
 
 familyArray.forEach(member => console.log(member.fName + ' ' + member.who));
-
 
 // cloning an array
 console.log('cloning an array');
@@ -130,6 +135,22 @@ let combinedArray1 = arrayToCombine1.concat(arrayToCombine2);
 let combinedArray2 = [...arrayToCombine1, ...arrayToCombine2, 'hopefully i\'ll master it'];
 console.log(combinedArray1);
 console.log(combinedArray2);
+
+// Filtering an array
+console.log('Filtering an array - Kids in the family');
+
+let kidsInTheFamily = familyArray.filter(function(familyMember){
+  return familyMember.age <= 18;
+});
+
+console.log(kidsInTheFamily);
+
+// More functions to remember
+
+// Map
+
+// Reduce
+
 
 
 // empty an array
